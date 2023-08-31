@@ -19,9 +19,11 @@ function App() {
                     <div className="row">
                       <div className="col-lg-12">
                           <div className="caption">
-                            <img src={lsl} alt="canalz" />                      
-                            <h2>Ventana de Nuestro Pueblo</h2>
-                            <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+                            <div className="txthome">
+                            <img src={lsl}  alt="canalz" />
+                            </div>                      
+                            <h2 className="">Ventana de Nuestro Pueblo</h2>
+                            <p className="">"Bienvenidos a Canal Z, un medio de comunicación comunitario comprometido en brindarte las noticias más relevantes y cercanas a nuestra comunidad local. En Canal Z, nos esforzamos por ofrecerte una mirada auténtica y transparente de los eventos, historias y personas que dan vida a nuestra querida localidad. Desde noticias locales hasta acontecimientos que nos impactan a todos, nuestro objetivo es mantenerte informado y conectado con lo que sucede a tu alrededor. Nos enorgullece ser un canal de comunicación que promueve la diversidad, el progreso y el espíritu comunitario. A través de nuestras noticias, reportajes y cobertura, queremos compartir las voces y perspectivas de nuestra comunidad, fomentando un diálogo enriquecedor. Únete a nosotros mientras exploramos cada rincón y celebramos lo que hace único a nuestro lugar. Descubre la esencia de nuestra comunidad en Canal Z, donde te mantendremos informado y conectado".</p>
                             
                             
                             
@@ -41,14 +43,16 @@ function App() {
 
 
     {/* ***** PRENSA ***** */}
-    <section className="upcoming-meetings" id="pricing">
+    <section className="upcoming-meetings" id="Prensa">
+    <div className="container"> 
         <div className="row">
                     <div className="col-lg-12">
                         <div className="section-heading">
                             <h2 >PRENSA</h2>
                         </div>
                     </div>
-        </div>
+          </div>  
+      </div>
 
       
       
@@ -57,6 +61,12 @@ function App() {
       </div>
     </section>
     {/* ***** FIN PRENSA ***** */}
+    {/* ***** FOOTER ***** */}
+    <section className="footer" id="Contacto">
+    <h2>MARACAIBOZUR@GMAIL.COM</h2>
+    </section>
+
+    {/* ***** FIN FOOTER ***** */}
   </div>
   );
 }

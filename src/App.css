@@ -136,6 +136,9 @@ banner
 }
 
 @media screen and (max-width: 767px) {
+  .main-banner .caption {
+    position: relative;
+  }
 
   .main-banner .caption h6 {
     font-weight: 500;
@@ -143,6 +146,10 @@ banner
 
   .main-banner .caption h2 {
     font-size: 36px;
+  }
+
+  .txthome img {
+    width: 100%;
   }
 
 }
@@ -282,6 +289,8 @@ max-width: 100%;
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   height: 150px;
 }
 
@@ -356,3 +365,10 @@ max-width: 100%;
 end prensa
 ---------------------------------------------
 */
+
+
+.footer {
+  background-color: #a12c2f;
+  text-align: center;
+  color: #eee;
+}
